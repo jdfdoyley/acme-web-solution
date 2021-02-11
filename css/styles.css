@@ -115,3 +115,43 @@ p {
 #section-d .box:first-child {
   background: #2690D4;
 }
+
+/* Footer */
+#main-footer {
+  background: #000;
+  color: #fff;
+  overflow: hidden;
+  padding: 2em;
+  text-align: center;
+}
+
+#main-footer h2 {
+  padding-bottom: 0;
+}
+
+#main-footer a {
+  color: #2690D4;
+  text-decoration: none;
+}
+
+#main-footer ul {
+  margin: 0 0 15px 0;
+}
+
+#main-footer li {
+  display: inline-block;
+}
+
+#main-footer li:not(:last-of-type) {
+  margin-right: 12px;
+}
+
+#main-footer span {
+  color: #333;
+  font-size: 0.5em;
+}
+
+#main-footer span a {
+  color: #333;
+  text-decoration: underline;
+}
