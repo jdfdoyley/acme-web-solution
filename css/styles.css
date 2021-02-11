@@ -41,3 +41,31 @@ p {
   background-color: #EAEAEA;
   color: #333;
 }
+
+/* Header Showcase */
+#showcase {
+  color: #fff;
+  min-height: 450px;
+  text-align: center;
+}
+
+#showcase .bg-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), #333 url(/img/showcase.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  opacity: 0.5;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+#showcase h1 {
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+#showcase .content-wrap {
+  padding: 0 1.5em;
+}
