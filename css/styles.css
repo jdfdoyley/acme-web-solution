@@ -98,3 +98,10 @@ p {
 .card-content {
   padding: 1.5em;
 }
+
+/* Section C */
+#section-c {
+  background: #fff;
+  color: #333;
+  padding: 2em;
+}
