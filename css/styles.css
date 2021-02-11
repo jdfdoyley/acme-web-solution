@@ -129,6 +129,10 @@ p {
   padding-bottom: 2rem;
 }
 
+#main-footer div:first-of-type {
+  font-size: 1.3em;
+}
+
 #main-footer a {
   color: #2690D4;
   text-decoration: none;
